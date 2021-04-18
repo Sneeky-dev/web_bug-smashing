@@ -96,7 +96,7 @@ class UI{
   }
   addCardItem(item){
     const div = document.createElement('div');
-    div.classList.add('.cart-item');
+    div.classList.add('cart-item');
       div.innerHTML =` <img src=${item.image} alt="product"> 
                       <div>
                           <h4>${item.title}</h4>
